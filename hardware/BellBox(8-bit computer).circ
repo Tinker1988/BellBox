@@ -2535,7 +2535,9 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="highDuration" val="2"/>
       <a name="lowDuration" val="2"/>
     </comp>
-    <comp lib="0" loc="(100,200)" name="Pin"/>
+    <comp lib="0" loc="(100,200)" name="Pin">
+      <a name="tristate" val="false"/>
+    </comp>
     <comp lib="0" loc="(590,220)" name="Pin">
       <a name="facing" val="west"/>
       <a name="output" val="true"/>
